@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- node
+- '6'
+before_deploy:
+- npm run build
+deploy:
+  skip_cleanup: true
+  provider: npm
+  email: jeffersbaxter@comcast.net
+  api_key:
+    secure: mxQB8ITlEUUiOU+6QInfMGo2DpLA0LJGuaBsr7iUv7/EMdzAYnLz6MpTDqZfBhJu2lLRExLNXAh6KuLijLU9gsS9tz59ZURxbWQIaMQBXeOP7RWDJ76/L2bS07UCZNWBpa6gdyVbiars9DAzOjUbbLee8jwKBnXLtHx3JcFvowfe+tNCYhsrAkl1aUJhKZvqFLDEgobL2Dn5hYgVfEXzgFjpxUE+jYN67A5i4P1fgmgU+30D953r7f6nqhdBqtjRqM3nHdporGL9/L7G53Yp4+5ATR4xBleG1BUcEJvQngebKvuKrdETLsRNAAIa/0Bu0wfH9bsQ2+6QnIely77MniIDZyPMHjEgDeZddeBYu/mnpewwHzlLBVoBlQK7VVmH2sJcRwK/7yFAaBP5vhVLp1ohoK21+tUspxI0syEhxF2s6m+RFrsLGJ8iaR9D0+hOoHhkTuZO4rDZrB/fgqGVETqkdVY5TET9UAXrxkQWW5MTDJ4xj+qkyGbH6mka5g9GTtEVkh58STXPIAykjwEFZ3a+4QlRz/8fdgXAobCqKI7PQiZohz3zHAn+No7jHte4Sg2CKy88ma7z0QYMx3uGGDpbab26T3bk5uKc1AALosc8PFYhvXH7vcz0kh+2TfqaVg+MEcN0VyU8A+bKqlDnuxRlsPrmlzfItKaSb/heQXM=
+  on:
+    tags: true
+    repo: jeffersbaxter/masks-js

@@ -27,10 +27,12 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
+    "braces": "^2.3.1",
     "eslint": "^6.1.0",
     "eslint-config-airbnb-base": "^13.2.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-utils": "^1.4.3",
+    "kind-of": "^6.0.3",
     "minimist": "^0.2.1",
     "mocha": "^6.2.0",
     "nyc": "^14.1.1"

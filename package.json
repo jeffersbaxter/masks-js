@@ -33,7 +33,7 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-utils": "^1.4.3",
     "kind-of": "^6.0.3",
-    "minimist": "^0.2.1",
+    "minimist": "^1.2.6",
     "mocha": "^6.2.0",
     "nyc": "^14.1.1"
   },
